@@ -1,0 +1,46 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: visible; /* Puedes ajustar esto según tus necesidades */
+    min-height: 100vh;
+    background-color: #fff;
+    display: grid;
+    row-gap: 0;
+    column-gap: 0;
+    grid-auto-flow: row;
+    grid-template-rows: 8em auto 70em auto; /* Ajusta esto según tus necesidades */
+}
+
+img{
+    width: auto;
+    /* height: auto; */
+    max-height: auto !important;
+}
+
+h1{
+    margin-bottom: 0px !important;
+}
+
+.footer{
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+}
+
+#mi-img{
+    width: 20px;
+    height: auto;
+}
+
+.footer {
+    width: 100%;
+    padding: 1rem;
+    background-color: #009b61;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
